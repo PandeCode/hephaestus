@@ -1,0 +1,13 @@
+[package]
+name = "hephaestus"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.69"
+clap = "4.1.4"
+penrose = "0.3.1"
+penrose_ui = "0.1.1"
+tracing = "0.1.37"
+tracing-subscriber = { version = "0.3.16", features = ["env-filter", "json"] }
+sysinfo = "0.27.7"
