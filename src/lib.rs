@@ -41,6 +41,7 @@ pub const THEME_NUMBERS              : u32 = 0xf78c6cff;
 pub const THEME_PARAMETERS           : u32 = 0xf78c6cff;
 
 pub const TAGS: [&'static str; 9] = ["¹ ", "² ", "³ ", "⁴ ", "⁵ ", "⁶ ", "⁷ ", "⁸", "⁹"];
+pub const TAGS_COLORS: [u32; 9] = [THEME_RED, THEME_GREEN, THEME_BLUE, THEME_BLUE, THEME_BLUE, THEME_BLUE, THEME_BLUE, THEME_BLUE, THEME_BLUE];
 
 // BAR
 pub const BAR_HEIGHT_PX: u32 = 18;

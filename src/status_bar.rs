@@ -5,7 +5,7 @@ pub use penrose_ui::{
 	bar::{
 		widgets::{
 			amixer_volume, battery_summary, current_date_and_time, wifi_network, ActiveWindowName,
-			CurrentLayout, RefreshText, RootWindowName, Workspaces,
+			CurrentLayout, RefreshText, RootWindowName, 
 		},
 		Position, StatusBar,
 	},
@@ -14,6 +14,7 @@ pub use penrose_ui::{
 };
 
 use hephaestus::{BAR_HEIGHT_PX, BLACK, BLUE, FONT, GREY, WHITE};
+use crate::widgets::workspaces::Workspaces;
 
 pub fn status_bar<X: XConn>() -> Result<StatusBar<X>> {
 	let style = &TextStyle {

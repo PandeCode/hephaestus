@@ -12,6 +12,7 @@ mod hooks;
 mod keybinds;
 mod layout;
 mod status_bar;
+mod widgets;
 
 use keybinds::keybindings;
 use layout::layouts;
